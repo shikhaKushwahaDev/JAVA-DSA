@@ -1,4 +1,5 @@
 # 🚀 Java DSA Practice
+This repository contains my daily practice programs for Data Structures and Algorithms using Java.
 
 ## 📚 Topics Covered
 - Functions
@@ -18,4 +19,4 @@
 - Important problems
 
 ## 🎯 Goal
-Preparing for placements using Java DSA
+To build strong problem-solving skills and prepare for technical interviews and placements.
