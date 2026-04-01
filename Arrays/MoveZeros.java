@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class MoveZeros{
     public static void move_zeros(int arr[]){
         int j = 0; //postion for non zero element

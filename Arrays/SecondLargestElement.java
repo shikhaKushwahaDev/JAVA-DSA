@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class SecondLargestelement{
     public static int second_largest(int arr[]){
         int largest = arr[0];

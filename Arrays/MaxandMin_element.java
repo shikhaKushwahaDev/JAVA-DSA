@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class MaxMin_element{
     public static void main (String args[]){
         int num[] = {2,5,1,9,3};

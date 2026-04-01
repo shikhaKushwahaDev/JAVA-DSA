@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class FindDuplicate{
     public static int find_duplicate(int arr []){
 

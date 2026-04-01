@@ -1,5 +1,3 @@
-import java .util.*;
-
 public class Reverse_array{
     public static void reverse_an_array(int num[]){
         int first = 0;

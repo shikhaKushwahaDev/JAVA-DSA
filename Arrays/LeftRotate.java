@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class LeftRotate{
     public static void reverse(int arr[], int first, int end){
         while(first<end){
