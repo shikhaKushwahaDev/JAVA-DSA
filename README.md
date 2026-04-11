@@ -4,6 +4,7 @@ This repository contains my daily practice programs for Data Structures and Algo
 ## 📚 Topics Covered
 - Functions
 - Arrays
+- Sorting Algorithms 
 
 ## 🧠 Concepts Practiced
 
@@ -28,6 +29,12 @@ This repository contains my daily practice programs for Data Structures and Algo
 - `KadaneAlgorithm.java`
 - `SecondLargestElement.java`
 - `SubArraySum.java`
+
+
+### 🔹 Sorting Algorithms
+- Bubble Sort
+- Selection Sort
+
   
 ## 🎯 Goal
 To build strong problem-solving skills and prepare for technical interviews and placements.
