@@ -1,15 +1,21 @@
 public class CountingSort{
     public static void countingsort(int arr[]){
         int n=arr.length;
-
+        
+       // Find largest element
         int largest = Integer.MIN_VALUE;
         for(int i=0;i<n;i++){
             largest = Math.max(largest,arr[i]);
         }
+        
+        // create count array
         int count[]=new int [largest+1];
+        // count frequency
         for(int i=0;i<n;i++){
             count[arr[i]]++;
         }
+        
+        //Rebuild sorted array
         int j=0;
         for(int i=0;i<count.length;i++){
             while(count[i]>0){
