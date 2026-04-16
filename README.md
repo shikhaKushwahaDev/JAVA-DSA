@@ -29,11 +29,14 @@ This repository contains my daily practice programs for Data Structures and Algo
 - `KadaneAlgorithm.java`
 - `SecondLargestElement.java`
 - `SubArraySum.java`
+- `MajorityElement.java`
 
 
 ### 🔹 Sorting Algorithms
 - Bubble Sort
 - Selection Sort
+- Insertion Sort
+- Counting Sort
 
   
 ## 🎯 Goal
