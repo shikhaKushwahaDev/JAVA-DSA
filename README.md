@@ -2,20 +2,21 @@
 This repository contains my daily practice programs for Data Structures and Algorithms using Java.
 
 ## 📚 Topics Covered
-- Functions
-- Arrays
-- Sorting Algorithms 
+* **Functions & Basics**
+* **Arrays (1D & 2D)**
+* **Strings**
+* **Sorting Algorithms**
 
-## 🧠 Concepts Practiced
+## 🧠 Concepts & Problems Implemented
 
 ### 🔹 Functions
-- Number conversion
-- Mathematical problems
-- Pattern printing
+* Number conversion
+* Mathematical problems
+* Pattern printing
 
-### 🔹 Arrays
+### 🔹 Arrays (1D)
 
-#### 📁 Problems Implemented
+   📁`Arrays/`
 - `LinearSearch.java`
 - `MaxMinElement.java`
 - `ReverseArray.java`
@@ -32,11 +33,21 @@ This repository contains my daily practice programs for Data Structures and Algo
 - `MajorityElement.java`
 
 
+### 🔹2D-Arrays 
+  📁 `2D-Arrays/`
+  - `SpiralMatrix.java`
+  - `Search in Sorted Matrix.java`
+  - `DiagonalSum.java`
+
+
+### 🔹 Strings
+   📁`String/`
+   - `LargestString.java`
+   - `StringCompresseion.java`
+   - `AnagramChecker.java`
+   - `ConvertToUppercase.java`
 ### 🔹 Sorting Algorithms
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Counting Sort
+- Bubble Sort | Selection Sort | Insertion Sort | Counting Sort
 
   
 ## 🎯 Goal
