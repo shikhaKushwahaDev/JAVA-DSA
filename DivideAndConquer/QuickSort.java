@@ -1,13 +1,25 @@
+// Quick sort
+// Time Complexity:
+// Best case: O(n log n)
+// Worst Case: O(n^2)
+
+// Space Complexity:
+// O(logn)-Recursive stack(average)
+// O(n)- Worst case
 public class QuickSort{
+    // Function to perform Quick sort
     public static void quickSort(int arr[],int si, int ei){
         // Base Case
         if(si>=ei){
             return;
         }
         int pIdx= partition(arr,si,ei);
+        // sort left part
         quickSort(arr,si,pIdx-1);
+        // sort right part
         quickSort(arr,pIdx+1,ei);
     }
+    // Place the pivot at correct position
     public static int partition(int arr[],int si,int ei){
         int pivot= arr[ei];
         int i=si-1;
