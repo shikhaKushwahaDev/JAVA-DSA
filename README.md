@@ -1,54 +1,72 @@
 # 🚀 Java DSA Practice
-This repository contains my daily practice programs for Data Structures and Algorithms using Java.
 
-## 📚 Topics Covered
-* **Functions & Basics**
-* **Arrays (1D & 2D)**
-* **Strings**
-* **Sorting Algorithms**
+A structured collection of my **Data Structures and Algorithms (DSA)** practice in **Java**.
 
-## 🧠 Concepts & Problems Implemented
+This repository contains topic-wise implementations of DSA concepts and coding problems solved during my interview and placement preparation. Each topic is organized into separate folders with clean and easy-to-understand Java solutions.
 
-### 🔹 Functions
-* Number conversion
-* Mathematical problems
-* Pattern printing
+---
 
-### 🔹 Arrays (1D)
+## 📚 Learning Progress
 
-   📁`Arrays/`
-- `LinearSearch.java`
-- `MaxMinElement.java`
-- `ReverseArray.java`
-- `LeftRotate.java`
-- `MoveZeros.java`
-- `FindDuplicate.java`
-- `RemoveDuplicate.java`
-- `MissingNumber.java`
-- `PairsInArray.java`
-- `PrefixSum.java`
-- `KadaneAlgorithm.java`
-- `SecondLargestElement.java`
-- `SubArraySum.java`
-- `MajorityElement.java`
+### ✅ Completed
+- Functions & Basics
+- Arrays (1D & 2D)
+- Strings
+- Sorting Algorithms
+- Recursion
+- Divide & Conquer
 
+### 🚧 Currently Learning
+- Backtracking
 
-### 🔹2D-Arrays 
-  📁 `2D-Arrays/`
-  - `SpiralMatrix.java`
-  - `Search in Sorted Matrix.java`
-  - `DiagonalSum.java`
+### 📌 Upcoming
+- ArrayList
+- Linked List
+- Stack
+- Queue
+- Trees
+- Binary Search Trees
+- Heaps
+- Hashing
+- Graphs
+- Dynamic Programming
 
+---
 
-### 🔹 Strings
-   📁`String/`
-   - `LargestString.java`
-   - `StringCompresseion.java`
-   - `AnagramChecker.java`
-   - `ConvertToUppercase.java`
-### 🔹 Sorting Algorithms
-- Bubble Sort | Selection Sort | Insertion Sort | Counting Sort
+## 📂 Repository Structure
 
-  
-## 🎯 Goal
-To build strong problem-solving skills and prepare for technical interviews and placements.
+```text
+JAVA-DSA/
+├── Functions/
+├── Arrays/
+├── 2D-Arrays/
+├── String/
+├── Sorting/
+├── Recursion/
+├── DivideAndConquer/
+├── Backtracking/
+└── README.md
+```
+
+> New topics are added as I continue my DSA journey.
+
+---
+
+## 🛠️ Tech Stack
+
+- Java
+- Git
+- GitHub
+
+---
+
+## 🎯 Objective
+
+- Strengthen problem-solving skills
+- Master Data Structures & Algorithms
+- Write clean and efficient Java code
+- Prepare for coding interviews and software engineering placements
+
+---
+
+⭐ This repository is actively maintained and updated with new topics and solutions.
