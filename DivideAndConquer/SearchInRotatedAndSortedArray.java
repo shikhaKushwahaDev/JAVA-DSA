@@ -1,3 +1,6 @@
+// Problem : Search In Rotated And Sorted Array
+// Time Complexity: O(log n)
+
 public class SearchInRotatedAndSortedArray{
     public static int search(int arr[],int target,int si,int ei){
         if(si>ei){
