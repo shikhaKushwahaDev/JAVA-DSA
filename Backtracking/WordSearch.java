@@ -1,3 +1,6 @@
+// Problem : Word Search
+// Time Complexity : O(m*n*4^L)
+// Space Complexity : O(m*n+L)
 public class WordSearch {
     public static boolean exist(char[][] board, String word) {
         int m=board.length;
@@ -33,5 +36,12 @@ public class WordSearch {
         visited[row][col]=false;
         return found;
 
+    }
+    public static void main(String args[]){
+        char[][] board={{'A','B','C','E'},
+                        {'S','F','C','S'},
+                        {'A','D','E','E'}};
+        String word="ABCCED";
+        System.out.println("Word Found:"+exist(board,word));
     }
 }
