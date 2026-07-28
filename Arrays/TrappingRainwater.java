@@ -1,4 +1,7 @@
 public class TrappingRainwater{
+    // By Prefix and Suffix method
+    // Time complexity:O(n)
+    // Space complexity:O(n)
     public static int trapped_rainwater(int height[],int width[]){
         int n = height.length;
         if( n==0 || width.length != n){
@@ -27,9 +30,33 @@ public class TrappingRainwater{
         }
         return trapwater;
     }
-    public static void main (String args[]){
-        int height[] = {4,2,0,6,3,2,5};
-        int width[] = {1,2,1,1,2,1,1};
-        System.out.println(trapped_rainwater(height,width));
+    // By Two pointer Approach
+    // Time complexity:O(n)
+    // Space complexity:O(1)
+    public static int trap(int[] height) {
+        int n=height.length;
+        int left=0;
+        int right=n-1;
+        int leftmax=0;
+        int rightmax=0;
+        int waterTrap=0;
+        while(left<=right){
+            if(height[left]<height[right]){
+                if(height[left]>=leftmax){
+                    leftmax=height[left];
+                }else{
+                    waterTrap+=leftmax-height[left];
+                }
+                left++;
+            }else{
+                if(height[right]>=rightmax){
+                    rightmax=height[right];
+                }else{
+                    waterTrap+=rightmax-height[right];
+                }
+                right--;
+            }
+        }
+        return waterTrap;
     }
 }
