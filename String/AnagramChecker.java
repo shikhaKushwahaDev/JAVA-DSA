@@ -1,37 +1,29 @@
-import java.util.Arrays;
-
 public class AnagramChecker{
-     
-    public static void anagramChecker(String str1, String str2){
-        // convert string to lowercase ,so that we don't have to check separatly for lower and uppercase
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
-        
-        // first check- If the length are same 
-        if(str1.length()==str2.length()){
-            // convert strings into char array
-            char[] arr1 = str1.toCharArray();
-            char[] arr2 = str2.toCharArray();
-            // sort the char array
-            Arrays.sort(arr1);
-            Arrays.sort(arr2);
-            
-            // if the sorted char arrays are same or identical then strings are anagrams
-            boolean result= Arrays.equals(arr1,arr2);
-            if(result){
-              System.out.println(str1+" and "+ str2 + " are anagrams to each other");
-            }else{
-                System.out.println(str1+" and "+str2+ " are  not anagrams to each other");
-            }
-        }else{
-            // case when length are not same
-            System.out.println(str1+" and "+str2+ " are not anagrams to each other");
+    public static boolean isAnagram(String s, String t) {
+        if(s.length()!=t.length()){
+            return false;
         }
-    }
-    public static void main(String args []){
-        String str1="Earth";
-        String str2="Heart";
+        int freq[]=new int[26];
 
-        anagramChecker(str1,str2);
+        for(int i=0;i<s.length();i++){
+            char ch=s.charAt(i);
+            freq[ch-'a']++;
+        }
+
+        for(int i=0;i<t.length();i++){
+            char ch=t.charAt(i);
+            freq[ch-'a']--;
+        }
+        for(int count:freq){
+            if(count!=0){
+              return false;
+            }
+        }
+        return true;
+    }
+    public static void main(String args[]){
+        String s="anagram";
+        String t="nagaram";
+        System.out.println(isAnagram(s,t));
     }
 }
